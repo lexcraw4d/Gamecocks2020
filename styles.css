@@ -44,9 +44,29 @@ table {background-color: gainsboro;}
   padding: 0px 10px;
 }
 
-@media (max-width: 1000px) {
-  .sidebar { display: block; width:100%; margin-top:2em;}
+
+
+@media only screen and (max-width: 950px) {
+  .cf7_custom_style_1 {
+     padding-left: 10%;
+     padding-right: 10%;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .cf7_custom_style_1 {
+     padding-left: 0;
+     padding-right: 0;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
