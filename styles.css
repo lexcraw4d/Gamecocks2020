@@ -51,14 +51,24 @@ table {background-color: gainsboro;}
      padding-left: 10%;
      padding-right: 10%;
   }
+
+  @media only screen and (max-width: 950px) {
+    .cf7_custom_style_1 {
+       padding-left: 10%;
+       padding-right: 10%;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .cf7_custom_style_1 {
+       padding-left: 0;
+       padding-right: 0;
+    }
+ }
 }
 
-@media only screen and (max-width: 600px) {
-  .cf7_custom_style_1 {
-     padding-left: 0;
-     padding-right: 0;
-  }
-}
+
+
 
 
 
